@@ -1,0 +1,38 @@
+body{
+    
+    background: linear-gradient(pink, cyan);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.central{
+
+    width: 300px;
+    height: 500px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 18px;
+    
+}
+.central button{
+
+    padding: 10px 60px;
+    background: cyan;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+
+}
+.central button:hover{
+    
+    background: orange;
+}
